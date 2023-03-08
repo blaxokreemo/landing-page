@@ -20,9 +20,38 @@ ul {
 
 .logo {
     font-weight: 600;
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .header ul {
     display: flex;
     gap: 30px;
+}
+
+.intro {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-left {
+    flex: 1
+}
+
+.intro-right {
+    flex: 0 0 600px;
+    background: #c0c1c5;
+}
+
+.tagline {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
 }
